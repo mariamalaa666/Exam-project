@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #FFF;
+    width: 100%;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-link2{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbar-nav .nav-link2.active{
+    color: #034833;
+}
+li{
+    list-style: none;
+}
+.a-header{
+    text-decoration: none;
+    color: #034833;
+}
+.btn-header{
+    border: none;
+    border-radius: 9.375rem;
+    background: #83CD20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.logo{
+    height: 100%;
+}
+footer{
+    background-color: #034833;
+}
+ul{
+    padding-left: 0;
+}
+.div1-footer{
+    width: 20%;
+}
+.div2-footer{
+    width: 20%;
+}
+.div3-footer{
+    width: 20%;
+}
+.div4-footer{
+    width: 20%;
+}
+.div-flex-footer{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 50px;
+}
+.container-section-1{
+    background: rgba(3, 72, 51, 0.80);
+    width: 1200px;
+    padding: 10px;
+    border-radius: 3.125rem;
+    height: 400px;
+    padding: 130px;
+}
+.img-div1-section-2{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+}
+.icon-input{
+    position: absolute;
+}
+#input{
+    width: 98%;
+    border: none;
+    position: relative;
+    background: #FFF;
+}
+input:focus{
+    outline: none;
+}
+.form-input{
+    border: 1px solid black;
+    width: 100%;
+    padding-right: 30px;
+    border-radius: 3.75rem;
+    padding: 0.9375rem 1.25rem;
+    background: #FFF;
+    border: 1px solid var(--200, #E3DBD8);
+}
+.form-input2{
+    border: 1px solid black;
+    width: 100%;
+    padding-right: 30px;
+    border-radius: 3.75rem;
+    padding: 0.9375rem 1.25rem;
+    background: #FFF;
+    border: 1px solid var(--200, #E3DBD8);
+}
+.form-text-area{
+    width: 98%;
+    border: none;
+    position: relative;
+    background: #FFF;
+}
+.form-text-area:focus{
+    outline: none;
+}
+.div-input{
+    width: 100%;
+}
+.h5-input{
+    color: #034833;
+}
+.h2-section-2{
+    color: #034833;
+    font-size: 40px;
+}
+.p-div2-section-2{
+    color: #034833;
+}
+.btn-input{
+    border: none;
+    border-radius: 9.375rem;
+    background: #83CD20;
+    text-align: center;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    color: #FFF;
+    margin-top: 15px;
+}
+.div-inputs{
+    border-radius: 1.25rem;
+    background: #F1F5EB;
+    padding: 2.5rem;
+    width: 100%;
+}
+.div1-section-2{
+    width: 45%;
+}
+.div2-section-2{
+    width: 45%;
+}
+iframe{
+    width: 100%;
+}
+.nav-pills .nav-link.active{
+    background: var(--Home-P, #83CD20);
+}
+.nav-link{
+    color: #034833;
+    border: 1px solid var(--Home-P, #83CD20);
+}
+.nav-link:hover{
+    color: #034833;
+}
+.nav-pills{
+    border-radius: 1.25rem;
+}
+.img-tads{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+}
+.div-tabs{
+    border-right: 1px solid #E3DBD8;
+    width: 33%;
+}
+.div-tabs2{
+    width: 33%;
+}
+.div-tabs3{
+    width: 33%;
+}
+.img-tab{
+    flex-shrink: 0;
+    height: 100%;
+}
+.img-tabs{
+    width: 100%;
+}
+.tab-pane.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+.active{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.contact-details{
+    display: none;
+}
+.p-div1-section-3{
+    color: #83CD20;
+}
+.h2-section-3{
+    color: #034833;
+    font-size: 45px;
+}
+.section-2-container{
+    max-width: 1200px;
+    padding: 10px;
+}
+.img2-footer{
+    width: 100%;
+}
+.p-div-tab{
+    color: #727272;
+}
+.h5-div-tab{
+    color: #034833;
+}
+@media screen and (max-width:992px){
+    .section-2-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .div1-section-2{
+        width: 100%;
+        padding: 10px;
+    }
+    .div2-section-2{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:800px){
+    .div-flex-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div1-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div2-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div3-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div4-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-tabs{
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+    }
+    .div-tabs2{
+        width: 100%;
+        padding: 10px;
+    }
+    .div-tabs3{
+        width: 100%;
+        padding: 10px;
+    }
+}

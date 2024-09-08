@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style3.css">
+</head>
+
+<body>
+    <div class="div-container">
+        <!--header-->
+        <header>
+            <div class="container d-flex justify-content-between align-items-center pt-3 pb-3">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <img class="logo" src="img/logo.png">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="a-header nav-link active" onclick="navigate1()" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="a-header nav-link active" onclick="navigate2()" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="a-header nav-link active" onclick="navigate3()" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="a-header nav-link active" onclick="navigate4()" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="btn-header text-white">Get An Appointment
+                            <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L10.5625 8H1C0.4375 8 0 7.5625 0 7C0 6.46875 0.4375 6 1 6H10.5625L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--section-1-->
+        <section class="d-flex justify-content-center align-items-center">
+            <div class="container-section-1 d-flex flex-column justify-content-start">
+                <h1 class="h1-about-us text-white">
+                    FAQ
+                </h1>
+                <p class="text-white">
+                    Home
+                    <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 12.5C1.71875 12.5 1.46875 12.4062 1.28125 12.2188C0.875 11.8438 0.875 11.1875 1.28125 10.8125L5.5625 6.5L1.28125 2.21875C0.875 1.84375 0.875 1.1875 1.28125 0.8125C1.65625 0.40625 2.3125 0.40625 2.6875 0.8125L7.6875 5.8125C8.09375 6.1875 8.09375 6.84375 7.6875 7.21875L2.6875 12.2188C2.5 12.4062 2.25 12.5 2 12.5Z"
+                            fill="white" />
+                    </svg>
+                    FAQ
+                </p>
+            </div>
+        </section>
+        <!--section-2-->
+        <section class="section-2 mt-5">
+            <div class="container">
+                <div class="div-accordions d-flex justify-content-between align-items-center flex-wrap">
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            What is the purpose of a visa?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            What documents are required for a visa application?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            How much does it cost to work with your agency?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            What is the difference between a tourist visa?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            Can I work with a tourist visa?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            How long does it take to process a visa application?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            Is there an age limit for applying for a visa?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            Can I apply for a visa if I have a criminal record?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            What happens if my visa application is denied?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            How long does it take for you to complete a project?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                    <!--accordion-items-->
+                    <div class="accordion-items">
+                        <button type="submit" class="button-accordion">
+                            Do I need a visa if I am just transiting through a country?
+                            <img class="btn-toggle1" src="img/btn-toggle1.png">
+                            <img class="btn-toggle2" src="img/btn-toggle2.png">
+                        </button>
+                        <div class="accordion-content">
+                            <p class="p-accordion">
+                                Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum has been the
+                                industry's standard dummy text ever
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer class="mt-5">
+            <div class="container p-5">
+                <div class="div-flex-footer d-flex justify-content-between">
+                    <!--div1-footer-->
+                    <div class="div1-footer">
+                        <img class="img-footer" src="img/logo-2.png">
+                        <p class="text-white mt-4 mb-3">
+                            Corporate business typically refers to large-scale mansola it enterprises or organizat
+                        </p>
+                        <img class="social-media" src="img/Group 15132.png">
+                    </div>
+                    <!--div2-footer-->
+                    <div class="div2-footer">
+                        <h3 class="text-white mb-3">
+                            Service Menu
+                        </h3>
+                        <!--ul-footer-->
+                        <ul class="ul-footer d-flex flex-column gap-3">
+                            <li class="li-footer text-white">
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Mistakes To Avoid
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Your Startup
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Knew About Fonts
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6875 1.3125C15.0938 1.6875 15.0938 2.34375 14.6875 2.71875L6.6875 10.7188C6.3125 11.125 5.65625 11.125 5.28125 10.7188L1.28125 6.71875C0.875 6.34375 0.875 5.6875 1.28125 5.3125C1.65625 4.90625 2.3125 4.90625 2.6875 5.3125L5.96875 8.59375L13.2812 1.3125C13.6562 0.90625 14.3125 0.90625 14.6875 1.3125Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Knew About Fonts
+                            </li>
+                        </ul>
+                    </div>
+                    <!--div3-footer-->
+                    <div class="div3-footer">
+                        <h3 class="text-white">
+                            Useful Link
+                        </h3>
+                        <!--ul-2-footer-->
+                        <ul class="ul-footer d-flex flex-column gap-3">
+                            <li class="li-footer text-white">
+                                <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Latest News
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Careers
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                General Inquiries
+                            </li>
+                            <li class="li-footer text-white">
+                                <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.75 11C1.50391 11 1.28516 10.918 1.12109 10.7539C0.765625 10.4258 0.765625 9.85156 1.12109 9.52344L4.86719 5.75L1.12109 2.00391C0.765625 1.67578 0.765625 1.10156 1.12109 0.773438C1.44922 0.417969 2.02344 0.417969 2.35156 0.773438L6.72656 5.14844C7.08203 5.47656 7.08203 6.05078 6.72656 6.37891L2.35156 10.7539C2.1875 10.918 1.96875 11 1.75 11Z"
+                                        fill="#83CD20" />
+                                </svg>
+                                Case Studies
+                            </li>
+                        </ul>
+                    </div>
+                    <!--div4-footer-->
+                    <div class="div4-footer">
+                        <h3 class="text-white">
+                            Gallery
+                        </h3>
+                        <img class="img2-footer" src="img/Group 1000009645.png">
+                    </div>
+                </div>
+                <!--div5-footer-->
+                <div class="div5-footer d-flex justify-content-between align-items-center mt-3">
+                    <p class="text-white">
+                        © Yoursitename 2024 | All Rights Reserved
+                    </p>
+                    <ul class="ul-2-footer d-flex align-items-center justify-content-center gap-3">
+                        <li class="li-2-footer text-white">
+                            Trams & Condition
+                        </li>
+                        <li class="li-2-footer text-white">
+                            Privacy Policy
+                        </li>
+                        <li class="li-2-footer text-white">
+                            Contact Us
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/app.js">
+
+    </script>
+</body>
+
+</html>

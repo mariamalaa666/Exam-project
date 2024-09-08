@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #FFF;
+    width: 100%;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar-nav .nav-link.active{
+    color: #034833;
+}
+.btn-header{
+    border: none;
+    border-radius: 9.375rem;
+    background: #83CD20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.logo{
+    height: 100%;
+}
+.section-1{
+    background-color: #034833;
+    background-image: url(../img/Frame\ 8365.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.learn-more{
+    border: none;
+    border-radius: 9.375rem;
+    background: #83CD20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.span-section-1{
+    color: #83CD20;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.card-div1-section-2{
+    background-color: #83CD20;
+    height: 210px;
+    width: 175px;
+    border-radius: 20px;
+}
+.h2-div1-section-2{
+    font-size: 60px;
+}
+.img2-div1-flex-imgs{
+    height: 100%;
+}
+/*.div1-flex-imgs{
+    position: relative;
+}
+.position-img{
+    position: absolute;
+    top: 900px;
+    left: 280px;
+}*/
+.p1-div2-section-2{
+    color: #034833;
+}
+.span-section-2{
+    color: #034833;
+}
+.p2-div2-section-2{
+    color: #727272;
+}
+.h5-div-flex-div2-section-2{
+    color: #034833;
+}
+.p3-div2-section-2{
+    color: #727272;
+}
+.h2-div2-section-2{
+    font-size: 45px;
+}
+.read-more{
+    border: none;
+    border-radius: 9.375rem;
+    background: #83CD20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.div2-section-2{
+    width: 43%;
+}
+.p1-div1-section-3{
+    color: #034833;
+}
+.span-section-3{
+    color: #034833;
+}
+.h2-section-3{
+    font-size: 45px;
+}
+.section-3-container{
+    width: 1200px;
+    padding: 40px;
+    border-radius: 3.125rem;
+    background: var(--100, #F1F5EB);
+}
+.img-col{
+    width: 20%;
+}
+.card{
+    border: none;
+    border-radius: 1.25rem;
+}
+.h5-col{
+    color: #034833;
+}
+.p-col{
+    color: #727272;
+}
+.card2{
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 1.25rem;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+.h3-div-block-card2{
+    color: #034833;
+    font-size: 40px;
+}
+.p-div-block-card2{
+    color: #727272;
+}
+.div1-section-4{
+    width: 48%;
+}
+.div2-section-4{
+    width: 48%;
+}
+.img-div1-section-4{
+    width: 100%;
+}
+.section-5-container{
+    width: 1200px;
+    padding: 40px;
+    background-color: #F1F5EB;
+    background-image: url(../img/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.25rem;
+}
+.h5-col2{
+    color: #034833;
+}
+.p-col2{
+    color: #727272;
+}
+.p-div1-section-5{
+    color: #034833;
+}
+.h2-div1-section-5{
+    color: #034833;
+    font-size: 45px;
+}
+.read-more2{
+    border: 1px solid #83CD20;
+    border-radius: 9.375rem;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+    color: #034833;
+}
+.card3{
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 1.25rem;
+}
+.h5-col3{
+    color: #034833;
+}
+.p-div-flex-card{
+    color: #034833;
+}
+p{
+    margin-bottom: 0;
+}
+.p-div1-section-6{
+    color: #034833;
+}
+.h2-div1-section-6{
+    color: #034833;
+    font-size: 45px;
+}
+footer{
+    background-color: #034833;
+}
+ul{
+    padding-left: 0;
+}
+.div1-footer{
+    width: 20%;
+}
+.div2-footer{
+    width: 20%;
+}
+.div3-footer{
+    width: 20%;
+}
+.div4-footer{
+    width: 20%;
+}
+.div-flex-footer{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 50px;
+}
+.img-footer2{
+    width: 100%;
+}
+.section-2-container{
+    max-width: 1200px;
+    padding: 10px;
+}
+.section-4-container{
+    max-width: 1200px;
+    padding: 10px;
+}
+.img-div1-flex-imgs{
+    width: 100%;
+}
+.img2-div1-flex-imgs{
+    width: 100%;
+    height: 100%;
+}
+.div1-flex-imgs{
+    width: 90%;
+}
+.card3:hover{
+    border: 1px solid #83CD20;
+}
+.img-arrow-col2{
+    display: none;
+}
+.read-more2:hover{
+    background: #83CD20;
+    color: #FFF;
+    .img-arrow-col{
+        display: none;
+    }
+    .img-arrow-col2{
+        display: block;
+    }
+}
+@media screen and (max-width:1056px){
+    .section-2-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div1-section-2{
+        width: 100%;
+        padding: 10px;
+    }
+    .div2-section-2{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:950px){
+    .div-flex-section-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div1-section-4{
+        width: 100%;
+        padding: 10px;
+    }
+    .div2-section-4{
+        width: 100%;
+        padding: 10px;
+    }
+    .div3-section-4{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-div2-section-4{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    .div-flex-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div1-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div2-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div3-footer{
+        width: 100%;
+        padding: 10px;
+    }
+    .div4-footer{
+        width: 100%;
+        padding: 10px;
+    }
+}
