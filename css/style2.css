@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .navbar{
     background-color: #FFF;
@@ -93,10 +94,14 @@ h1{
 .div2-flex-imgs{
     width: 43%;
 }
+.divs-flex-div2-section-2{
+    height: 35%;
+}
 .div-divs-flex-div2-section-2{
     border: 1px solid #E3DBD8;
     border-radius: 1.25rem;
     width: 47%;
+    height: 100%;
 }
 .h4-div-divs-flex-div2-section-2{
     color: #034833;
@@ -130,9 +135,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 0 20px;
-    height: 45px;
-    line-height: 45px;
+    padding: 10px 20px;
     color: #034833;
 }
 .p-div2-divs-flex-div2-section-2{

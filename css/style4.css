@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .navbar{
     background-color: #FFF;
@@ -228,6 +229,9 @@ iframe{
 .h5-div-tab{
     color: #034833;
 }
+::placeholder{
+    color: #034833;
+}
 @media screen and (max-width:992px){
     .section-2-container{
         display: flex;
@@ -266,6 +270,10 @@ iframe{
         padding: 10px;
     }
     .contact-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab-pane{
         display: flex;
         flex-direction: column;
     }

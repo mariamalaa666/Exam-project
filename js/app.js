@@ -25,17 +25,3 @@ function navigate3(){
 function navigate4(){
     window.location.href = 'contact.html';
 }
-/*const countryButtons = document.querySelectorAll('.btn-tabs');
-countryButtons.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        countryButtons.forEach(b => b.classList.remove('active'));
-        button.classList.add('active');
-        countryDetails.forEach((details, i) => {
-            if (i === index) {
-                details.style.display = 'block';
-            } else {
-                details.style.display = 'none';
-            }
-        })
-    })
-})*/

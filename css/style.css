@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .navbar{
     background-color: #FFF;
@@ -73,17 +74,22 @@ h1{
 .h2-div1-section-2{
     font-size: 60px;
 }
-.img2-div1-flex-imgs{
-    height: 100%;
-}
-/*.div1-flex-imgs{
+.div1-flex-imgs{
     position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2-flex-imgs{
+    display: flex;
+    flex-wrap: wrap;
 }
 .position-img{
     position: absolute;
     top: 900px;
     left: 280px;
-}*/
+}
 .p1-div2-section-2{
     color: #034833;
 }
@@ -257,14 +263,8 @@ ul{
     padding: 10px;
 }
 .img-div1-flex-imgs{
-    width: 100%;
-}
-.img2-div1-flex-imgs{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
-}
-.div1-flex-imgs{
-    width: 90%;
 }
 .card3:hover{
     border: 1px solid #83CD20;
@@ -347,5 +347,14 @@ ul{
     .div4-footer{
         width: 100%;
         padding: 10px;
+    }
+    .divs-flex-div2-section-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:666px){
+    .position-img{
+        position: static;
     }
 }
