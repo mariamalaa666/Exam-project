@@ -69,10 +69,9 @@ ul{
 .container-section-1{
     background: rgba(3, 72, 51, 0.80);
     width: 1200px;
-    padding: 10px;
     border-radius: 3.125rem;
     height: 400px;
-    padding: 130px;
+    padding: 40px;
 }
 .img-div1-section-2{
     width: 100%;
@@ -229,6 +228,12 @@ iframe{
     display: flex;
     gap: 20px;
 }
+.div-flex-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
 @media screen and (max-width:992px){
     .section-2-container{
         display: flex;
@@ -290,6 +295,11 @@ iframe{
 }
 @media screen and (max-width:780px){
     .div-flex-tabs{
+        display: block;
+    }
+}
+@media screen and (max-width:600px){
+    .div-flex-inputs{
         display: block;
     }
 }

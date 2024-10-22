@@ -68,10 +68,9 @@ ul{
 .container-section-1{
     background: rgba(3, 72, 51, 0.80);
     width: 1200px;
-    padding: 10px;
     border-radius: 3.125rem;
     height: 400px;
-    padding: 130px;
+    padding: 40px;
 }
 h1{
     font-size: 60px;
