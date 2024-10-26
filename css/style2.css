@@ -232,7 +232,6 @@ h1{
 }
 .section-4-container{
     max-width: 1200px;
-    padding: 10px;
 }
 .img-div4-section-4{
     width: 100%;
@@ -259,7 +258,7 @@ h1{
         width: 90%;
     }
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:700px){
     .section-4-container{
         display: flex;
         flex-direction: column;
@@ -268,11 +267,9 @@ h1{
     }
     .div1-section-4{
         width: 100%;
-        padding: 10px;
     }
     .div2-section-4{
         width: 100%;
-        padding: 10px;
     }
 }
 @media screen and (max-width:800px){
@@ -310,5 +307,19 @@ h1{
     .div-divs-flex-div2-section-2{
         display: block;
         width: 80%;
+    }
+}
+@media screen and (max-width:450px){
+    .div-flex-section-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .div3-section-4{
+        width: 95%;
+    }
+    .div4-section-4{
+        width: 95%;
     }
 }
